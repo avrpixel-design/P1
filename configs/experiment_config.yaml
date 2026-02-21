@@ -1,0 +1,49 @@
+# =============================================================================
+# Experiment Configuration — MI Estimation Framework
+# =============================================================================
+
+seed: 42
+
+data:
+  max_samples_per_dataset: 500
+  sampling: stratified
+  sample_rate: 16000
+
+datasets:
+  emotional:  [RAVDESS, IEMOCAP]
+  linguistic: [L2-ARCTIC, GMU]
+  pathological: [UA-Speech, MDVR-KCL]
+
+features:
+  source:       {dim: 9,  components: "F0(6), jitter, shimmer, HNR"}
+  filter:       {dim: 32, components: "F1-F3, B1-B3(6), MFCCs+delta(26)"}
+  emotional:    {dim: 28, components: "source(9), energy(3), spectral(3), padding"}
+  linguistic:   {dim: 33, components: "formants(6), MFCCs+delta-delta(25), temporal(2)"}
+  pathological: {dim: 16, components: "voice quality(3), formants(6), F2 velocity(1), padding"}
+
+mi_estimation:
+  mine: {hidden_dim: 256, leaky_relu_slope: 0.2, dropout: 0.1}
+  club: {hidden_dim: 256, log_variance_clamp: [-6, 2]}
+  ema:  {alpha: 0.01, epsilon: 1.0e-8}
+  ksg:  {k: 5, norm: chebyshev, n_bootstrap: 10}
+  ensemble: {size: 3, seeds: [42, 142, 242], final_avg_epochs: 10}
+  adaptive_weighting: {w_low: 0.3, w_max: 0.6, delta_threshold: 1.0, slope: 0.1}
+
+training:
+  optimiser: adam
+  learning_rate: 1.0e-4
+  weight_decay: 1.0e-5
+  max_epochs: 100
+  batch_size: 256
+  gradient_clip_norm: 1.0
+  lr_scheduler: {type: reduce_on_plateau, factor: 0.5, patience: 10}
+  early_stopping: {gap_threshold: 0.1, patience: 15}
+
+attribution:
+  method: ksg_ratio
+  bootstrap_resamples: 10
+  confidence_level: 0.95
+
+output:
+  dpi: 300
+  format: [pdf, png]

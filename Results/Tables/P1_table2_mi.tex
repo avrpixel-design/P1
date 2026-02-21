@@ -1,0 +1,17 @@
+\begin{table}[t]
+\centering
+\caption{Cross-dimension mutual information analysis with bounded neural estimators. All values in nats. Uncertainty = CLUB $-$ MINE. All uncertainties $<$1.0 nat indicate stable estimation.}
+\label{tab:mi_results}
+\begin{tabular}{lccccl}
+\toprule
+\textbf{Dimension Pair} & \textbf{MINE} & \textbf{CLUB} & \textbf{KSG} & \textbf{Final} & \textbf{Uncert.} \\
+\midrule
+Emotion--Linguistic & 0.00 & 0.14 & 0.25 & \textbf{0.12} & 0.14 \\
+Emotion--Pathology & 0.00 & 0.07 & 0.26 & \textbf{0.10} & 0.07 \\
+Linguistic--Pathology & 0.00 & 0.10 & 0.21 & \textbf{0.10} & 0.10 \\
+Source--Filter & 0.24 & 0.59 & 0.60 & \textbf{0.47} & 0.35 \\
+\bottomrule
+\end{tabular}
+\vspace{1mm}
+\small\textit{Note:} MINE = lower bound, CLUB = upper bound, KSG = non-parametric baseline, Final = KSG-anchored estimate.
+\end{table}

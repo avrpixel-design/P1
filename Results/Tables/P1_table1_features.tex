@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering
+\caption{Feature extraction summary.}
+\label{tab:features}
+\begin{tabular}{llcl}
+\toprule
+\textbf{Set} & \textbf{Components} & \textbf{Dim} & \textbf{Domain} \\
+\midrule
+Source $\mathbf{s}$ & F0 (6), jitter, shimmer, HNR & 9 & Glottal excitation \\
+Filter $\mathbf{f}$ & F1--F3, B1--B3 (6), MFCCs+$\Delta$ (26) & 32 & Vocal tract \\
+Emotional $\mathbf{e}$ & Source (9), energy (3), spectral (3) & 28 & Affective prosody \\
+Linguistic $\mathbf{l}$ & Formants (6), MFCCs+$\Delta\Delta$ (25), rhythm (2) & 33 & Phonetic content \\
+Pathological $\mathbf{p}$ & Voice quality (3), formants (6), F2 velocity (1) & 16 & Clinical markers \\
+\bottomrule
+\end{tabular}
+\end{table}

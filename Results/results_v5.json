@@ -1,0 +1,978 @@
+{
+  "RAVDESS-L2-ARCTIC-UA-Speech": {
+    "mi": {
+      "Emotion-Linguistic": {
+        "mine_mean": 0,
+        "mine_std": 0.0,
+        "club_mean": 0.22667710424352575,
+        "club_std": 0.17053468033761746,
+        "combined_mean": 0.16864233176850887,
+        "neural_combined": 0.11333855212176287,
+        "uncertainty": 0.22667710424352575,
+        "ksg_mean": 0.29768448427758293,
+        "ksg_std": 0.05748082208718336,
+        "convergence": [
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": true,
+            "epoch": 16
+          }
+        ],
+        "n_converged": 1
+      },
+      "Emotion-Pathology": {
+        "mine_mean": 0,
+        "mine_std": 0.0,
+        "club_mean": 0.16365254720052083,
+        "club_std": 0.11060475945001276,
+        "combined_mean": 0.17463627160412176,
+        "neural_combined": 0.08182627360026042,
+        "uncertainty": 0.16365254720052083,
+        "ksg_mean": 0.3911929336131316,
+        "ksg_std": 0.07083508481293946,
+        "convergence": [
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          }
+        ],
+        "n_converged": 0
+      },
+      "Linguistic-Pathology": {
+        "mine_mean": 0,
+        "mine_std": 0.0,
+        "club_mean": 0.15793502150641547,
+        "club_std": 0.022770065862783764,
+        "combined_mean": 0.14475902387763287,
+        "neural_combined": 0.07896751075320774,
+        "uncertainty": 0.15793502150641547,
+        "ksg_mean": 0.29827255450129153,
+        "ksg_std": 0.055709704478016944,
+        "convergence": [
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          }
+        ],
+        "n_converged": 0
+      },
+      "Source-Filter": {
+        "mine_mean": 0.7263813018798828,
+        "mine_std": 0.513906344926866,
+        "club_mean": 1.604104647318522,
+        "club_std": 0.8266831067168285,
+        "combined_mean": 1.0616562577644486,
+        "neural_combined": 1.1652429745992023,
+        "uncertainty": 0.8777233454386393,
+        "ksg_mean": 0.8199539184833565,
+        "ksg_std": 0.07026097561513762,
+        "convergence": [
+          {
+            "converged": true,
+            "epoch": 16
+          },
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": true,
+            "epoch": 17
+          }
+        ],
+        "n_converged": 2
+      }
+    },
+    "attr": {
+      "Emotional": {
+        "source": 0.7780737581864088,
+        "filter": 0.22192624181359125
+      },
+      "Linguistic": {
+        "source": 0.0,
+        "filter": 1.0
+      },
+      "Pathological": {
+        "source": 0.3238403173180832,
+        "filter": 0.6761596826819167
+      }
+    }
+  },
+  "RAVDESS-L2-ARCTIC-MDVR-KCL": {
+    "mi": {
+      "Emotion-Linguistic": {
+        "mine_mean": 0,
+        "mine_std": 0.0,
+        "club_mean": 0.01,
+        "club_std": 0.0,
+        "combined_mean": 0.08583487167555359,
+        "neural_combined": 0.005,
+        "uncertainty": 0.01,
+        "ksg_mean": 0.2744495722518453,
+        "ksg_std": 0.11892441171643572,
+        "convergence": [
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          }
+        ],
+        "n_converged": 0
+      },
+      "Emotion-Pathology": {
+        "mine_mean": 0,
+        "mine_std": 0.0,
+        "club_mean": 0.01,
+        "club_std": 0.0,
+        "combined_mean": 0.03163214127431501,
+        "neural_combined": 0.005,
+        "uncertainty": 0.01,
+        "ksg_mean": 0.09377380424771671,
+        "ksg_std": 0.07160048040290713,
+        "convergence": [
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          }
+        ],
+        "n_converged": 0
+      },
+      "Linguistic-Pathology": {
+        "mine_mean": 0,
+        "mine_std": 0.0,
+        "club_mean": 0.01,
+        "club_std": 0.0,
+        "combined_mean": 0.07503171769622043,
+        "neural_combined": 0.005,
+        "uncertainty": 0.01,
+        "ksg_mean": 0.23843905898740142,
+        "ksg_std": 0.1461163472150528,
+        "convergence": [
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          }
+        ],
+        "n_converged": 0
+      },
+      "Source-Filter": {
+        "mine_mean": 0,
+        "mine_std": 0.0,
+        "club_mean": 0.01,
+        "club_std": 0.0,
+        "combined_mean": 0.09756836836452265,
+        "neural_combined": 0.005,
+        "uncertainty": 0.01,
+        "ksg_mean": 0.3135612278817422,
+        "ksg_std": 0.11380124888241228,
+        "convergence": [
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          }
+        ],
+        "n_converged": 0
+      }
+    },
+    "attr": {
+      "Emotional": {
+        "source": 0.8826544548963624,
+        "filter": 0.11734554510363761
+      },
+      "Linguistic": {
+        "source": 0.0,
+        "filter": 1.0
+      },
+      "Pathological": {
+        "source": 0.0,
+        "filter": 1.0
+      }
+    }
+  },
+  "RAVDESS-GMU-UA-Speech": {
+    "mi": {
+      "Emotion-Linguistic": {
+        "mine_mean": 0,
+        "mine_std": 0.0,
+        "club_mean": 0.3761342276114004,
+        "club_std": 0.16549598726244363,
+        "combined_mean": 0.1971727721889508,
+        "neural_combined": 0.1880671138057002,
+        "uncertainty": 0.3761342276114004,
+        "ksg_mean": 0.2184193084165355,
+        "ksg_std": 0.04495615680507371,
+        "convergence": [
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          }
+        ],
+        "n_converged": 0
+      },
+      "Emotion-Pathology": {
+        "mine_mean": 0,
+        "mine_std": 0.0,
+        "club_mean": 0.16365254720052083,
+        "club_std": 0.11060475945001276,
+        "combined_mean": 0.17463627160412176,
+        "neural_combined": 0.08182627360026042,
+        "uncertainty": 0.16365254720052083,
+        "ksg_mean": 0.3911929336131316,
+        "ksg_std": 0.07083508481293946,
+        "convergence": [
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          }
+        ],
+        "n_converged": 0
+      },
+      "Linguistic-Pathology": {
+        "mine_mean": 0.002639659245808919,
+        "mine_std": 0.003733041905466509,
+        "club_mean": 0.23637210559844968,
+        "club_std": 0.16258668489739625,
+        "combined_mean": 0.15124095606097582,
+        "neural_combined": 0.1195058824221293,
+        "uncertainty": 0.23373244635264076,
+        "ksg_mean": 0.22528946121828436,
+        "ksg_std": 0.06443146053932107,
+        "convergence": [
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          }
+        ],
+        "n_converged": 0
+      },
+      "Source-Filter": {
+        "mine_mean": 0.7263813018798828,
+        "mine_std": 0.513906344926866,
+        "club_mean": 1.604104647318522,
+        "club_std": 0.8266831067168285,
+        "combined_mean": 1.0616562577644486,
+        "neural_combined": 1.1652429745992023,
+        "uncertainty": 0.8777233454386393,
+        "ksg_mean": 0.8199539184833565,
+        "ksg_std": 0.07026097561513762,
+        "convergence": [
+          {
+            "converged": true,
+            "epoch": 16
+          },
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": true,
+            "epoch": 17
+          }
+        ],
+        "n_converged": 2
+      }
+    },
+    "attr": {
+      "Emotional": {
+        "source": 0.7780737581864088,
+        "filter": 0.22192624181359125
+      },
+      "Linguistic": {
+        "source": 0.06402459177125379,
+        "filter": 0.9359754082287463
+      },
+      "Pathological": {
+        "source": 0.3238403173180832,
+        "filter": 0.6761596826819167
+      }
+    }
+  },
+  "RAVDESS-GMU-MDVR-KCL": {
+    "mi": {
+      "Emotion-Linguistic": {
+        "mine_mean": 0,
+        "mine_std": 0.0,
+        "club_mean": 0.01,
+        "club_std": 0.0,
+        "combined_mean": 0.05859382029779864,
+        "neural_combined": 0.005,
+        "uncertainty": 0.01,
+        "ksg_mean": 0.18364606765932878,
+        "ksg_std": 0.08366650021637512,
+        "convergence": [
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          }
+        ],
+        "n_converged": 0
+      },
+      "Emotion-Pathology": {
+        "mine_mean": 0,
+        "mine_std": 0.0,
+        "club_mean": 0.01,
+        "club_std": 0.0,
+        "combined_mean": 0.03163214127431501,
+        "neural_combined": 0.005,
+        "uncertainty": 0.01,
+        "ksg_mean": 0.09377380424771671,
+        "ksg_std": 0.07160048040290713,
+        "convergence": [
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          }
+        ],
+        "n_converged": 0
+      },
+      "Linguistic-Pathology": {
+        "mine_mean": 0,
+        "mine_std": 0.0,
+        "club_mean": 0.01,
+        "club_std": 0.0,
+        "combined_mean": 0.029609556309684645,
+        "neural_combined": 0.005,
+        "uncertainty": 0.01,
+        "ksg_mean": 0.08703185436561549,
+        "ksg_std": 0.0858249054372903,
+        "convergence": [
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          }
+        ],
+        "n_converged": 0
+      },
+      "Source-Filter": {
+        "mine_mean": 0,
+        "mine_std": 0.0,
+        "club_mean": 0.01,
+        "club_std": 0.0,
+        "combined_mean": 0.09756836836452265,
+        "neural_combined": 0.005,
+        "uncertainty": 0.01,
+        "ksg_mean": 0.3135612278817422,
+        "ksg_std": 0.11380124888241228,
+        "convergence": [
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          }
+        ],
+        "n_converged": 0
+      }
+    },
+    "attr": {
+      "Emotional": {
+        "source": 0.8826544548963624,
+        "filter": 0.11734554510363761
+      },
+      "Linguistic": {
+        "source": 0.1497010115071771,
+        "filter": 0.8502989884928229
+      },
+      "Pathological": {
+        "source": 0.0,
+        "filter": 1.0
+      }
+    }
+  },
+  "IEMOCAP-L2-ARCTIC-UA-Speech": {
+    "mi": {
+      "Emotion-Linguistic": {
+        "mine_mean": 0,
+        "mine_std": 0.0,
+        "club_mean": 0.2131270063894766,
+        "club_std": 0.1307733511862085,
+        "combined_mean": 0.14715931191107903,
+        "neural_combined": 0.1065635031947383,
+        "uncertainty": 0.2131270063894766,
+        "ksg_mean": 0.24188286558254077,
+        "ksg_std": 0.0611176811063157,
+        "convergence": [
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          }
+        ],
+        "n_converged": 0
+      },
+      "Emotion-Pathology": {
+        "mine_mean": 0,
+        "mine_std": 0.0,
+        "club_mean": 0.0829183448155721,
+        "club_std": 0.05966270961784412,
+        "combined_mean": 0.13392474757888284,
+        "neural_combined": 0.04145917240778605,
+        "uncertainty": 0.0829183448155721,
+        "ksg_mean": 0.349677756311442,
+        "ksg_std": 0.06746811573736868,
+        "convergence": [
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          }
+        ],
+        "n_converged": 0
+      },
+      "Linguistic-Pathology": {
+        "mine_mean": 0,
+        "mine_std": 0.0,
+        "club_mean": 0.15793502150641547,
+        "club_std": 0.022770065862783764,
+        "combined_mean": 0.14475902387763287,
+        "neural_combined": 0.07896751075320774,
+        "uncertainty": 0.15793502150641547,
+        "ksg_mean": 0.29827255450129153,
+        "ksg_std": 0.055709704478016944,
+        "convergence": [
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          }
+        ],
+        "n_converged": 0
+      },
+      "Source-Filter": {
+        "mine_mean": 0.22836699485778808,
+        "mine_std": 0.3229597013262707,
+        "club_mean": 0.7243339046902126,
+        "club_std": 0.9445581736349715,
+        "combined_mean": 0.5359173978990255,
+        "neural_combined": 0.4763504497740004,
+        "uncertainty": 0.49596690983242453,
+        "ksg_mean": 0.674906943524084,
+        "ksg_std": 0.04127579172513592,
+        "convergence": [
+          {
+            "converged": true,
+            "epoch": 18
+          },
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          }
+        ],
+        "n_converged": 1
+      }
+    },
+    "attr": {
+      "Emotional": {
+        "source": 0.8077861605064516,
+        "filter": 0.19221383949354842
+      },
+      "Linguistic": {
+        "source": 0.19621375305464542,
+        "filter": 0.8037862469453546
+      },
+      "Pathological": {
+        "source": 0.37136079115856924,
+        "filter": 0.6286392088414308
+      }
+    }
+  },
+  "IEMOCAP-L2-ARCTIC-MDVR-KCL": {
+    "mi": {
+      "Emotion-Linguistic": {
+        "mine_mean": 0,
+        "mine_std": 0.0,
+        "club_mean": 0.01,
+        "club_std": 0.0,
+        "combined_mean": 0.07161117483023398,
+        "neural_combined": 0.005,
+        "uncertainty": 0.01,
+        "ksg_mean": 0.22703724943411324,
+        "ksg_std": 0.13459555055433375,
+        "convergence": [
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          }
+        ],
+        "n_converged": 0
+      },
+      "Emotion-Pathology": {
+        "mine_mean": 0,
+        "mine_std": 0.0,
+        "club_mean": 0.01,
+        "club_std": 0.0,
+        "combined_mean": 0.06185788547228131,
+        "neural_combined": 0.005,
+        "uncertainty": 0.01,
+        "ksg_mean": 0.19452628490760437,
+        "ksg_std": 0.07887544404067937,
+        "convergence": [
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          }
+        ],
+        "n_converged": 0
+      },
+      "Linguistic-Pathology": {
+        "mine_mean": 0,
+        "mine_std": 0.0,
+        "club_mean": 0.01,
+        "club_std": 0.0,
+        "combined_mean": 0.07503171769622043,
+        "neural_combined": 0.005,
+        "uncertainty": 0.01,
+        "ksg_mean": 0.23843905898740142,
+        "ksg_std": 0.1461163472150528,
+        "convergence": [
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          }
+        ],
+        "n_converged": 0
+      },
+      "Source-Filter": {
+        "mine_mean": 0,
+        "mine_std": 0.0,
+        "club_mean": 0.01,
+        "club_std": 0.0,
+        "combined_mean": 0.18310512304772159,
+        "neural_combined": 0.005,
+        "uncertainty": 0.01,
+        "ksg_mean": 0.5986837434924053,
+        "ksg_std": 0.14141526903396304,
+        "convergence": [
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          }
+        ],
+        "n_converged": 0
+      }
+    },
+    "attr": {
+      "Emotional": {
+        "source": 0.7426158839193654,
+        "filter": 0.25738411608063466
+      },
+      "Linguistic": {
+        "source": 0.9718841905545575,
+        "filter": 0.028115809445442428
+      },
+      "Pathological": {
+        "source": 1.0,
+        "filter": 0.0
+      }
+    }
+  },
+  "IEMOCAP-GMU-UA-Speech": {
+    "mi": {
+      "Emotion-Linguistic": {
+        "mine_mean": 0,
+        "mine_std": 0.0,
+        "club_mean": 0.3008952776590983,
+        "club_std": 0.09992671350320907,
+        "combined_mean": 0.18958184894649077,
+        "neural_combined": 0.15044763882954915,
+        "uncertainty": 0.3008952776590983,
+        "ksg_mean": 0.2808950058860213,
+        "ksg_std": 0.07118689551094635,
+        "convergence": [
+          {
+            "converged": true,
+            "epoch": 15
+          },
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          }
+        ],
+        "n_converged": 1
+      },
+      "Emotion-Pathology": {
+        "mine_mean": 0,
+        "mine_std": 0.0,
+        "club_mean": 0.0829183448155721,
+        "club_std": 0.05966270961784412,
+        "combined_mean": 0.13392474757888284,
+        "neural_combined": 0.04145917240778605,
+        "uncertainty": 0.0829183448155721,
+        "ksg_mean": 0.349677756311442,
+        "ksg_std": 0.06746811573736868,
+        "convergence": [
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          }
+        ],
+        "n_converged": 0
+      },
+      "Linguistic-Pathology": {
+        "mine_mean": 0.002639659245808919,
+        "mine_std": 0.003733041905466509,
+        "club_mean": 0.23637210559844968,
+        "club_std": 0.16258668489739625,
+        "combined_mean": 0.15124095606097582,
+        "neural_combined": 0.1195058824221293,
+        "uncertainty": 0.23373244635264076,
+        "ksg_mean": 0.22528946121828436,
+        "ksg_std": 0.06443146053932107,
+        "convergence": [
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          }
+        ],
+        "n_converged": 0
+      },
+      "Source-Filter": {
+        "mine_mean": 0.22836699485778808,
+        "mine_std": 0.3229597013262707,
+        "club_mean": 0.7243339046902126,
+        "club_std": 0.9445581736349715,
+        "combined_mean": 0.5359173978990255,
+        "neural_combined": 0.4763504497740004,
+        "uncertainty": 0.49596690983242453,
+        "ksg_mean": 0.674906943524084,
+        "ksg_std": 0.04127579172513592,
+        "convergence": [
+          {
+            "converged": true,
+            "epoch": 18
+          },
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          }
+        ],
+        "n_converged": 1
+      }
+    },
+    "attr": {
+      "Emotional": {
+        "source": 0.8077861605064516,
+        "filter": 0.19221383949354842
+      },
+      "Linguistic": {
+        "source": 0.8843098066973326,
+        "filter": 0.11569019330266739
+      },
+      "Pathological": {
+        "source": 0.37136079115856924,
+        "filter": 0.6286392088414308
+      }
+    }
+  },
+  "IEMOCAP-GMU-MDVR-KCL": {
+    "mi": {
+      "Emotion-Linguistic": {
+        "mine_mean": 0,
+        "mine_std": 0.0,
+        "club_mean": 0.01,
+        "club_std": 0.0,
+        "combined_mean": 0.0745842713753907,
+        "neural_combined": 0.005,
+        "uncertainty": 0.01,
+        "ksg_mean": 0.23694757125130234,
+        "ksg_std": 0.10310939695124771,
+        "convergence": [
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          }
+        ],
+        "n_converged": 0
+      },
+      "Emotion-Pathology": {
+        "mine_mean": 0,
+        "mine_std": 0.0,
+        "club_mean": 0.01,
+        "club_std": 0.0,
+        "combined_mean": 0.06185788547228131,
+        "neural_combined": 0.005,
+        "uncertainty": 0.01,
+        "ksg_mean": 0.19452628490760437,
+        "ksg_std": 0.07887544404067937,
+        "convergence": [
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          }
+        ],
+        "n_converged": 0
+      },
+      "Linguistic-Pathology": {
+        "mine_mean": 0,
+        "mine_std": 0.0,
+        "club_mean": 0.01,
+        "club_std": 0.0,
+        "combined_mean": 0.029609556309684645,
+        "neural_combined": 0.005,
+        "uncertainty": 0.01,
+        "ksg_mean": 0.08703185436561549,
+        "ksg_std": 0.0858249054372903,
+        "convergence": [
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          }
+        ],
+        "n_converged": 0
+      },
+      "Source-Filter": {
+        "mine_mean": 0,
+        "mine_std": 0.0,
+        "club_mean": 0.01,
+        "club_std": 0.0,
+        "combined_mean": 0.18310512304772159,
+        "neural_combined": 0.005,
+        "uncertainty": 0.01,
+        "ksg_mean": 0.5986837434924053,
+        "ksg_std": 0.14141526903396304,
+        "convergence": [
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          },
+          {
+            "converged": false,
+            "epoch": null
+          }
+        ],
+        "n_converged": 0
+      }
+    },
+    "attr": {
+      "Emotional": {
+        "source": 0.7426158839193654,
+        "filter": 0.25738411608063466
+      },
+      "Linguistic": {
+        "source": 0.8985214736456171,
+        "filter": 0.10147852635438297
+      },
+      "Pathological": {
+        "source": 1.0,
+        "filter": 0.0
+      }
+    }
+  }
+}
